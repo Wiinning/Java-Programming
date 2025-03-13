@@ -1,4 +1,4 @@
-package Homework;
+package Homework.model;
 
 import java.util.Set;
 
@@ -19,5 +19,16 @@ public class Movie {
         this.genre = genre;
 
     }
-    public void getMovieInfo
+
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "\n id=" + id +
+                "\n, uuid='" + uuid + '\'' +
+                "\n, title='" + title + '\'' +
+                "\n, description='" + description + '\'' +
+                "\n, time='" + time + '\'' +
+                "\n, genre=" + genre +
+                '}';
+    }
 }
