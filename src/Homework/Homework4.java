@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.TreeSet;
 import java.util.UUID;
 
-public class MovieMain {
+public class Homework4 {
     public static void main(String[] args) {
         Movie movie1 = new Movie();
         movie1.setMovieInfo(1, UUID.randomUUID().toString(), "Fast And Furious", "A series of films revolving around street racing, heist, and spies.", "2h 30 mins",
