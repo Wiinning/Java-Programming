@@ -1,7 +1,6 @@
 <component name="libraryTable">
-  <library name="text-table-formatter-1.1.2">
+  <library name="lombok">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Desktop/text-table-formatter-1.1.2.jar!/" />
       <root url="jar://$USER_HOME$/Desktop/lombok.jar!/" />
     </CLASSES>
     <JAVADOC />
