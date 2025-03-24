@@ -6,7 +6,7 @@ import Homework.BankingSoftware.model.Account;
 public class Application {
     public static void main(String[] args) {
 
-        Account savingAccount = new Account("Winning");
+        Account savingAccount = new Account("Testing");
         savingAccount.displayWelcomeMessage();
         savingAccount.deposit(10.2);
         savingAccount.withdrawal(5.2);
