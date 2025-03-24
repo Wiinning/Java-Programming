@@ -1,11 +1,7 @@
-package ClassAndObject.model;
+package oopLesson.model;
 import lombok.*;
-
-@Getter
-@Setter
-@ToString
+@Data
 @RequiredArgsConstructor
-
 
 public class User {
     private Integer id;
@@ -13,5 +9,4 @@ public class User {
     private String email;
     private String password;
     private String profile;
-
 }
